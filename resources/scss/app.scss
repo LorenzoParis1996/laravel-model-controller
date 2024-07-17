@@ -1,12 +1,46 @@
-@import "~bootstrap/scss/bootstrap";
+//@import "~bootstrap/scss/bootstrap";
 
-/** {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
 }
 
+body {
+    background-color: rgb(9, 49, 129);
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1rem;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    border: magenta 2px solid;
+
+    .card {
+        padding: 1rem;
+        border: magenta 2px dashed;
+
+        p {
+            margin-top: 0.5rem;
+        }
+    }
+}
+
 ul {
     list-style: none;
-}*/
+}
+
+.white-text {
+    color: white;
+}
+
